@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Settings, should always be in the overflow -->
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/action_settings_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/help"
+        app:showAsAction="ifRoom"/>
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/action_settings_default"
+        android:title="@string/default_setting"
+        app:showAsAction="never"/>
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/action_settings_trig"
+        android:title="@string/trig_setting"
+        app:showAsAction="never"/>
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/action_settings_variables"
+        android:title="@string/variables_setting"
+        app:showAsAction="never"/>
+</menu>
